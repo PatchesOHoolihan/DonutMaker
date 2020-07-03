@@ -6,9 +6,55 @@
     <title>Module 4 Project</title>
 </head>
 <body>
-    <div class="container">
-        <div class="anchor"></div>
+    <div class="modal">
+        <div class="modal__content">
+            <h2>Gale King</h2>
+            <h3>Software Developer</h3>
+            <p>Gale is a newly minted developed exploring the use of HTML, CSS and Javascript to build this clicker game
+                <br><br>This is a link to my working portfolio <a target="_blank"  href="https://patchesohoolihan.github.io/"></a>.
+                If you would like to see some more projects of mine feel free to visit my Github page here <a target="_blank" href="https://github.com/patchesohoolihan">here</a>.</p>
+        </div>
     </div>
-    <script src="/src/app.js"></script>
+
+    <div class="flex-container">
+        <header class ="flex-container-header">
+            <h3 class ="flex-container-header-element element-dropdown">
+                Fred The Baker Baking Company
+                <span class="element-dropdown-text">Fred The Baker Baking Company loves donuts even though you generally don't bake donuts!</span>
+            </h3>
+            <h3 class="flex-container-header-element">
+                <a target="" href=" https://orteil.dashnet.org/cookieclicker/"> Inspiration For Fred's Bakery</a>
+            </h3>
+            <h3 class="flex-container-header-element">
+                <a href="#" onclick="showModal()">Developer Information</a>
+            </h3>
+        </header>
+        
+    </div>
+    
+    <div><h1>Let's Make Some Donuts!</h1></div>
+    <div> <h3>Donut Counter </h3>
+        <button id="donut-click-button" >Click me To Add A Donut</button></div>
+
+
+        <p>The starting price of an autoclicker is 100 donuts and increases by 10% with each purchase</p>
+        <p>The starting price tag of a donut multiplier is 10 donuts and also increases by 10% each purchase</p>
+        <!-- Maybe change to H tag with a Span inside -->
+        <p>Number of Donuts: <p class="number-of-donuts"></p></p>
+        <p>Number of AutoClickers: <p class="number-of-autoclickers"></p></p>
+        <p>AutoClicker Price: <p class="autoclicker-price-tag"></p></p>
+        <p>Number of Donut Multipliers : <p class="number-of-multipliers"></p></p>
+        <p>Multiplier Price: <p class="multiplier-price-tag"></p></p>
+
+        <button id="auto-clicker-buy-button">Buy AutoClicker</button>
+
+        <button id="multiplier-buy-button">Buy Donut Multiplier</button>
+
+        <button id="reset-button"> Reset The Game</button>
+       
+    <script src="./src/js/app.js">
+    
+    
+    </script>
 </body>
 </html>
