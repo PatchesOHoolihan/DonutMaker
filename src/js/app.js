@@ -14,14 +14,14 @@ let multiplierPriceTag = document.querySelector(".multiplier-price-tag");
 let autoClickerPriceTag = document.querySelector(".autoclicker-price-tag");
 let resetButton = document.querySelector("#reset-button");
 const modal = document.getElementById("modal-id");
-const span = document.getElementsByClassName("close")[0];
-const modalClick = document.getElementById("developer-information");
-modalClick.onclick = function(){
-    modal.style.display = "block";
-  }
-  span.onclick = function(){
-    modal.style.display = "none";
-  }
+// const span = document.getElementsByClassName("close")[0];
+// const modalClick = document.getElementById("developer-information");
+// modalClick.onclick = function(){
+//     modal.style.display = "block";
+//   }
+//   span.onclick = function(){
+//     modal.style.display = "none";
+//   }
   window.onclick = function(event){
     if(event.target == modal){
       modal.style.display = "none";
